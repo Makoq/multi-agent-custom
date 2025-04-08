@@ -4,3 +4,4 @@ dist
 agent.log
 graphState.png
 archive-log/*model_invoke_logs.json
+.npmrc

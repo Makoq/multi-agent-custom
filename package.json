@@ -1,5 +1,5 @@
 {
-  "name": "multi-agent",
+  "name": "@Makoq/multi-agent",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
