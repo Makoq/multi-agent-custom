@@ -1,0 +1,28 @@
+{
+  "name": "multi-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest ./__test__/graph.test.ts --config vitest.config.mts",
+    "build": "tsc",
+    "start": "node dist/graph.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/core": "^0.3.43",
+    "@langchain/langgraph": "^0.2.62",
+    "@langchain/openai": "^0.3.13",
+    "dotenv": "^16.4.7",
+    "langchain": "^0.3.19",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.1.1",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.2"
+  }
+}
